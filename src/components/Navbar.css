@@ -1,37 +1,27 @@
-/* Navbar.css */
-
 .glass-nav {
-  /* Core glassmorphism */
-  background: rgba(20, 20, 35, 0.28) !important;
+  background: rgba(20, 20, 35, 0.28);
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
-
-  /* Premium touches */
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 9999; /* ensure navbar is on top */
+  min-height: 70px; /* fixes collapsing issue */
 }
 
+/* Scrolled state */
 .glass-nav.scrolled {
-  background: rgba(15, 15, 30, 0.45) !important;
+  background: rgba(15, 15, 30, 0.45);
   backdrop-filter: blur(20px) saturate(200%);
   border-bottom-color: rgba(100, 100, 255, 0.12);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
 }
 
-/* Brand gradient (luxury feel) */
-.text-gradient {
-  background: linear-gradient(90deg, #a78bfa, #7c3aed, #60a5fa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* Links styling */
+/* Navbar links */
 .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.85) !important;
+  color: rgba(255, 255, 255, 0.85);
   font-weight: 500;
-  padding: 0.6rem 1.1rem !important;
+  padding: 0.6rem 1.1rem;
   border-radius: 12px;
   transition: all 0.3s ease;
   position: relative;
@@ -39,12 +29,12 @@
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: white !important;
+  color: white;
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(8px);
 }
 
-/* Optional: underline on hover (modern style) */
+/* Underline hover effect */
 .navbar-nav .nav-link::after {
   content: '';
   position: absolute;
@@ -90,5 +80,3 @@
 .navbar-toggler-icon {
   filter: brightness(0) invert(1);
 }
-
-/* When scrolled — you can add this behavior in useEffect */
