@@ -1,10 +1,12 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar/Navbar";
+import LandingPage from "../components/LandingPage/landingPage";
 
 function Home() {
     return (
         <div>
             <Navbar />
-           <h1> welcome to gaurav portfolio</h1>
+            <LandingPage />
+           
         </div>
     );
 }   
