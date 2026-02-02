@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
                 {/* Brand / Logo */}
                 <a className="navbar-brand fw-bold fs-4" href="#/">
                     <img
-                        src="./src/img/Logo1.png"
+                        src="./img/Logo1.png"
                         alt="Portfolio Logo"
                         style={{ width: '80px' }} // fixed width for visibility
                     />

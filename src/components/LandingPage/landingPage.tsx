@@ -11,7 +11,7 @@ export default function Landing() {
             {/* Image */}
             <div className="limg p-0 mb-0">
               <img
-                src="./src/img/Limg.png"
+                src="./img/Limg.png"
                 alt="Landing"
                 className="img-fluid position-lg-absolute z-2"
               />
