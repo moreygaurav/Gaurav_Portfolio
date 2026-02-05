@@ -37,7 +37,10 @@ export default function Landing() {
           <img src="./img/instagram.png" alt="Github img" className="instagramimg" />
         </a>
         {/* whatsapp img */}
-        <a href="9359031017">
+        <a href="mailto:gauravmorey27@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
           <img src="./img/whatsapp.png" alt="Github img" className="whatsappimg" />
         </a>
       </div>
