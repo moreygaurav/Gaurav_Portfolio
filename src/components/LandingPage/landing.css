@@ -1,123 +1,75 @@
-/* =====================
-   BASE (Mobile First)
-   ===================== */
-
-.container-fluid {
-  padding: 0;
-  margin: 0;
-}
-
-.maindiv {
+.bgdiv {
   height: 80vh;
   width: 100%;
-  /* Mobile: NO blur */
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-  border: none;
-  box-shadow: none;
+  background-color: rgba(255, 255, 255, 0.149);
+  border-radius: 30px;
+  border: 2px solid rgb(243, 228, 187);
   position: relative;
 }
 
-.limg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 0px;
-  margin-bottom: 0px;
-}
-
-.limg img {
-  height: 50%;
-  margin-bottom: 0px;
-}
-.textarea P {
-  width: 100%;
-  position: relative;
-  color: #c9a24d83;
-  font-size: 15rem;
-  font-weight: bold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.text2 {
-  position: absolute;
-  top: 45px;
-  left: 50%;
-  transform: translateX(-50%); /* 🔥 THIS IS THE KEY */
+.JRImg {
+  margin-top: 3%;
   width: 60%;
-  z-index: 3;
+}
 
+.BGImg {
+  top:8% ;
+  width: 77vw;
   display: flex;
-  justify-content: center; /* center text horizontally */
-  align-items: center; /* center text vertically */
-
-  border: 1px solid #c9a24dca;
-  border-radius: 50px;
-  background-color: #cca6549a;
+  position: initial;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
-.text2 p {
-  margin: 0;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.text3{
+.HEROImg {
   position: absolute;
-  left: 30px;
-  right: 30px;
-  top: 25%;
-  width: 90%;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10; /* higher than BG */
+  height: 79vh;
 }
-
-.text3 h5 {
-  font-size: 1rem;
-color: #c9a24d83;
+.Other {
+  position: relative;
+  top: 11%;
+  left: 4%;
 }
-.text3 h1{
-  font: size 2em; 
-  color: rgba(255, 255, 255, 0.648);
+.Slogunimg{
+    position: relative;
+    top: 3%;
+    left: 37%;
+    width: 23%;
 }
-
-
-/* =====================
-   TABLETS
-   ===================== */
-
-@media (min-width: 768px) {
-  .textarea {
-    font-size: 4rem;
-  }
-
-  .limg img {
-    height: 360px;
-  }
+.reactdev{
+  position: absolute;
+  z-index: 10;
+  width: 40%;
+  right: 2%;
+  bottom: 30%;
 }
-
-/* =====================
-   LAPTOPS & LARGE SCREENS
-   UI REMAINS SAME
-   ===================== */
-
-@media (min-width: 992px) {
-  .maindiv {
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
-    border: 2px solid #c9a24dca;
-    border-radius: 10px;
-    box-shadow: 0 8px 32px rgba(246, 226, 187, 0.37);
-  }
-
-  .limg {
+.githubimg{
     position: absolute;
-    height: 100%;
-  }
+    left: 4%;
+    bottom: 15%;
 
-  .limg img {
-    height: 530px;
-  }
-
-  .textarea {
-    font-size: 8rem;
-  }
+}
+.linkdimg{
+    position: absolute;
+    left: 8%;
+    bottom: 15%;
+}
+.facebookimg{
+  position: absolute;
+  left: 12%;
+  bottom: 15%;
+}
+.instagramimg{
+  position: absolute;
+  left: 16%;
+  bottom: 15%;
+}
+.whatsappimg{
+  position: absolute;
+  left: 20%;
+  bottom: 15%;
 }
