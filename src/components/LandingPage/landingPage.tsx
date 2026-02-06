@@ -43,6 +43,8 @@ export default function Landing() {
         >
           <img src="./img/whatsapp.png" alt="Github img" className="whatsappimg" />
         </a>
+
+        <img src="./img/Description.PNG" alt="Description img" className="Description" />
       </div>
     </section>
   );
