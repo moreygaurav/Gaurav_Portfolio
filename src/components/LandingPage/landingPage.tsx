@@ -41,9 +41,10 @@ export default function Landing() {
         target="_blank"
         rel="noopener noreferrer"
         >
-          <img src="./img/whatsapp.png" alt="Github img" className="whatsappimg" />
+          {/* gmail img */}
+          <img src="./img/gmailphoto.png" alt="Github img" className="gmailimg" />
         </a>
-
+        {/* description png */}
         <img src="./img/Description.PNG" alt="Description img" className="Description" />
       </div>
     </section>
