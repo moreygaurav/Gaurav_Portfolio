@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 
 import './index.css'
 import App from './App.tsx'
+import "./main.css"
 
 // bootstrap css dependency
 import "bootstrap/dist/css/bootstrap.min.css";
